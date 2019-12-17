@@ -1,0 +1,24 @@
+{
+  "name": "apollo-datasource-example",
+  "version": "1.0.0",
+  "description": "Apollo Datasource example using Swagger API",
+  "main": "src/index.ts",
+  "author": "nikis05",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./src/index.ts",
+    "gen": "graphql-codegen"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "^1.9.1",
+    "@graphql-codegen/typescript-resolvers": "^1.9.1",
+    "apollo-datasource-rest": "^0.6.9",
+    "apollo-server": "^2.9.13",
+    "graphql-import": "^0.7.1",
+    "typescript": "^3.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
